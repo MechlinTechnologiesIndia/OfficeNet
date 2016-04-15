@@ -1,0 +1,16 @@
+﻿#tabContaier {    background: none repeat scroll 0 0 #FFFFFF;    border: 1px solid #D2D2D2;    margin: 0 auto;    position: relative;    width: 770px;}
+#tabContaier table ul {    border: medium none;    width: auto;}
+#tabContaier table ul li {    border-right: medium none;    float: none;    height: 12px;}
+#tabContaier ul{overflow:hidden; border-bottom: 1px solid #D2D2D2;    border-right: 1px solid #D2D2D2; height:35px;	position:absolute; z-index:100; margin:0px !important;		 width: 100%;	 padding:0px;	}
+#tabContaier li{float:left;		list-style:none;  border-right: 1px solid #D2D2D2;	}
+#tabContaier li a{background:#ffffff;	border-right:0;		color:#000000;	cursor:pointer;	display:block;	height:35px; line-height:35px;	padding:0 17px;	text-decoration:none; text-transform:uppercase; font-size:14px; font-weight:bold;	}
+#tabContaier li a:hover{background:#eee;	}
+#tabContaier li a.active{background:#e1e1e1;	border-right:0;		color:#e77817;	}
+.tabDetails {  background: none repeat scroll 0 0 #FFFFFF;  border-bottom: 1px solid #D2D2D2;  margin: 34px 0 5px;  min-height: 156px;  overflow: hidden;  padding-bottom: 20px;} 
+.tabContents{padding:20px	}
+.tabContents h1{font:normal 24px/1.1em Georgia, "Times New Roman", Times, serif; padding:0 0 10px;	}
+.tabContents p{	padding:0 0 10px;	}
+.tabContEmail{  width:150px;     width:148px\0/;/* ie8 */	}
+	  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    .tabContEmail	{	    width:149px;	}	  }
+

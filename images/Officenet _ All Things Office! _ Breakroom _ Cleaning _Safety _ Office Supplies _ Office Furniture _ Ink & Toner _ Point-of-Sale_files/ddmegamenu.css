@@ -1,0 +1,36 @@
+
+.mega{width:300px; padding:10px;position:absolute;visibility:hidden;}
+.mega .column{ float:left;width:49%;}
+.mega a{text-decoration:none;font-size:10px;font-weight:bold;color:#2c2c2c;} 
+ .mega a[rel]:after{ content:" " url(down.png);}
+.mega .column ul{margin:0;margin-left:5px;padding:0;list-style:none;}
+.mega .column ul li{margin-bottom:3px;}
+.mega .ulmenu{ margin:0;padding:0;border:1px solid gray;border-bottom-width:0;list-style:none;}
+.mega .ulmenu a{display:block;border-bottom:1px solid gray;padding:5px;}
+.mega .ulmenu a:hover{background:lightyellow;}
+.mega .edge ul { right:0;}
+.solidblocktheme
+{
+    padding: 0;
+    width: 958px !important;
+    background-color: #ffffff;
+    border-right: 1px solid #d2d2d2;
+    border-bottom: 1px solid #D2D2D2;
+    border-left: 1px solid #D2D2D2;
+    padding: 0;
+    top: 8px !important;
+}
+.solidblocktheme p, .solidblocktheme .column{padding:5px; width:auto;}
+.solidblockmenu{margin: 0;padding: 0;float: left;font: bold 13px Arial;width: 100%;overflow: hidden; height:36px; margin:0px;}
+.solidblockmenu li{display: inline;margin-top:0px;}
+.mega .column ul li h3,.mega .column ul li h2{	margin:5px 0;	color:#ffffff;}
+.headbg{ height:134px;	clear:both;}
+.headbgleft{    background-image:url(images/tilt_bg_left.png);	width:136px;   height: 134px;  display:block; background-repeat: no-repeat;}
+.headbgcenter{    background-image:url(images/tilt_bg_center.png);    background-repeat:repeat-x;    height:134px;   width:100%;  vertical-align: top;}
+.headbgright{   background-image :url(images/tilt_bg_right.png);	width:369px;    height: 134px;    display:block; background-repeat: no-repeat;}
+.headbgcenter .headbgtxt { color: #FFFFFF;  display: table-cell;  height: 80px; padding: 5px 10px;  vertical-align: middle;   width: 100%;} 
+.headerlinksnew a { line-height: 20px !important; padding: 4px 21px 7px !important;}
+.tableDiscount{border: 1px solid #000000; margin-bottom: 5px; width: auto;  border-collapse: collapse;}
+.tableDiscount td{ border-bottom: 1px solid #000000;    border-right: 1px solid #000000;}
+.tableDiscount th{  border-bottom: 1px solid #000000;}
+.megawrapper{ z-index:9999 !important;}

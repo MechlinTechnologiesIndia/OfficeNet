@@ -29,7 +29,7 @@
             padding-bottom:5px;
         }
         #main{
-            border:1px solid black;
+          border:1px solid black;
             padding:5px;
             height:50px;
             position:relative;
@@ -39,8 +39,6 @@
         }
        
         #section{
-            border-bottom:1px solid black;
-            border-top:1px solid black;
             width:76%;
             height:auto;
             margin-left:110px;
@@ -164,19 +162,16 @@
           border-top:1px solid black;
       }
       
-      }
       .footer_payment_option{
-          font-size:15px;
-          margin-bottom:5px;
-          padding-bottom:5px;
+          color:#000000;
+          font-size:20px;
+          margin-bottom:4px;
+          padding-bottom:4px;
           text-transform:uppercase;
+          margin-left:170px;
+
       }
-      .Table{
-          padding:20px;
-          width:100%;
-          margin-bottom:10px;
-          margin-left:20px;
-      }
+  
 
 
 

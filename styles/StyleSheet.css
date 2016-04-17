@@ -1,8 +1,12 @@
-﻿        #header{
+﻿
+  h1 {
+            color: skyblue;
+        }
+        #header{
             width:90%;
             height:150px;
             margin-left:30px;
-   
+            margin-right:20px;
             padding:5px;
     
         }
@@ -21,7 +25,7 @@
             font-family:Arial;
             font-size:20px;
             margin-top:2px;
-            margin-right:30px;
+            margin-right:123px;
             padding-bottom:5px;
         }
         #main{
@@ -29,52 +33,56 @@
             padding:5px;
             height:50px;
             position:relative;
-            margin-left:30px;
-            width:90%;
+            margin-left:110px;
+            width:75%;
             display:block;
         }
-        .nav{
-            padding-left:5px;
-        }
+       
         #section{
-            border:1px solid black;
-            width:90%;
-            height:450px;
-            margin-left:30px;
+            border-bottom:1px solid black;
+            border-top:1px solid black;
+            width:76%;
+            height:auto;
+            margin-left:110px;
+            margin-top:4px;
         }
         #first{
             position:fixed;
-            margin-left:30px;
-            height:450px;
-            width:60%;
+            height:auto;
+            width:50%;
             float:left;
             position:relative;
         }
         #second {
             position:relative;
             float: right;
-            width: 30%;
+            width: 25%;
+            height:auto;
             padding: 5px;
             margin-top:1px;
+            margin-right:0px;
         }
-        #nav{
+       
+      
+        .nav{
+            border:none;   
             width:90%;
-            height:40px;
-            float:left;
-            padding:5px;
-            margin-left:30px;
-        }
+            float:right;
+            margin-top:5px;
+        
+        } 
       .footer_link{
           overflow:hidden;
           padding:13px 0 0px 45px;
+          border-bottom:1px solid black;
+          border-top:1px solid black;
+         
       }
-      .footer_link{
-          overflow:hidden;
-          padding:13px 0 0px 45px;
-      }
+      
       .footer_link_common_bx{
           float:left;
-          margin-right:65px;
+          padding:10px;
+          margin-left:110px;
       }
       .footer_link_title{
           border-bottom:2px solid #9b9b9b;
@@ -93,43 +101,82 @@
           border-right:1px solid #d1d1d1;
           border-top:1px solid #d1d1d1;
           overflow:hidden;
-          width:960px;
+          margin-left:10%;
+          margin-right:10%;
+          width:73%;
+          
       }
       .welcomeHometext{
-          color:#000000;
-          font-family:Arial;
-          font-size:13px;
-          margin-bottom:20px;
-          margin-top:10px;
+              font-family: Arial;
+             font-size: 13px;
+              color: #000000;
+            margin-bottom: 20px;
+             margin-top: 10px;
       }
       .welcome_right_text{
           float:left;
           padding:20px;
           text-align:justify;
-          width:331px;
+          width:34%;
       }
       .welcomeHomeMore{
           font-family:Arial;
           font-size:17px;
           font-weight:bold;
           margin-bottom:20px;
+          
       }
-      #Devesh{
-          background-color:transparent;
-          margin:0 auto;
-          width:970px;
-          min-height:500px;
+      .welcomeHome{
+          text-align:left;
+          font-size:17px;
+          font-family:Arial;
+          font-weight:bold;
+          padding:20px;
+          color:blue;
+          font-weight:bold;
       }
-
-
-
-
-
-
-
-
-
-
+      #Product{
+          width:70%;
+          margin-left:133px;
+          border:1px solid black;   
+          float:left;
+          padding:20px;
+      }
+      .Productname{
+          float:left;
+          margin-left:10px;
+          padding:20px;
+          width:100%;
+          display:block;
+        
+      }
+      #ProductInfo{
+          float:left;
+          margin-left:15px;
+          padding:20px;
+      }
+      #media{
+          width:50%;
+          margin-left:30px;
+      }
+      #Tara{
+          border-bottom:1px solid black;
+          border-top:1px solid black;
+      }
+      
+      }
+      .footer_payment_option{
+          font-size:15px;
+          margin-bottom:5px;
+          padding-bottom:5px;
+          text-transform:uppercase;
+      }
+      .Table{
+          padding:20px;
+          width:100%;
+          margin-bottom:10px;
+          margin-left:20px;
+      }
 
 
 
